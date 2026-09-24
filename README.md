@@ -15,6 +15,10 @@ I build reproducible data and AI systems with explicit operating boundaries: sou
 
 Each repository documents its own verification evidence and known limits. Public data releases are published only after source, privacy, and release-contract review.
 
+## Verified baseline
+
+Each case has a [v0.1.0 release](https://github.com/LucasRangelSSouza/cloud-data-finops-sdd-toolkit/releases/tag/v0.1.0) created from a passing public CI baseline. The release notes preserve the case-specific boundary: synthetic FinOps telemetry, reviewed data distribution, human review of model or ranking output, grounded retrieval behavior, and local-first distributed-runtime evidence.
+
 ## Focus areas
 
 Data platforms, analytical engineering, MLOps, GenAI evaluation, cloud architecture, Kubernetes, Terraform, CI/CD, and FinOps.
