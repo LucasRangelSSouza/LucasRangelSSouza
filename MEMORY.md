@@ -13,4 +13,4 @@ This repository is Lucas Rangel's public GitHub profile. It presents a concise, 
 
 ## Next verifiable task
 
-Replace the portfolio repository link with the deployed public URL once the private infrastructure repository approves a domain and completes its host-exposure review.
+Keep both URLs verified; revisit when vps_rt_infra goes private.

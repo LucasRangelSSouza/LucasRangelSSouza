@@ -15,7 +15,7 @@ I build reproducible data and AI systems with explicit operating boundaries: sou
 
 Each repository documents its own verification evidence and known limits. Public data releases are published only after source, privacy, and release-contract review.
 
-The [personal portfolio website](https://github.com/LucasRangelSSouza/lucas-rangel-portfolio) links all six cases with their verified states; no public domain is live yet, so this profile links the source repository.
+The [personal portfolio website](https://rangeltech.net) links all six cases with their verified states ([source](https://github.com/LucasRangelSSouza/lucas-rangel-portfolio)). A [live demo](https://demo.rangeltech.net/rag/) runs the hardened public-demo profile: a cited question-answering service over the published education dataset and a public read-only dashboard. Cloud failover and autoscaling remain unproven.
 
 ## Published datasets
 
