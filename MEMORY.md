@@ -6,7 +6,8 @@ This repository is Lucas Rangel's public GitHub profile. It presents a concise, 
 
 ## Current state
 
-- The profile README is public and links to the six flagship repositories.
+- The profile README is public and links to the six flagship repositories and the two published Kaggle datasets (2026-09-25).
+- Public contact: email and LinkedIn, approved by Lucas for publication.
 - The repository contains no private infrastructure information, credentials, internal architecture, customer data, or unsupported professional claims.
 - A separate personal portfolio website is specified in the portfolio delivery specification. The profile links to that website only after the website passes its release checks.
 
