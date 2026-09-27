@@ -13,4 +13,4 @@ This repository is Lucas Rangel's public GitHub profile. It presents a concise, 
 
 ## Next verifiable task
 
-Keep both URLs verified; revisit when vps_rt_infra goes private.
+Keep the six repository and two Kaggle links verified. Any public domain or external demo link requires a separate content-boundary review before it appears in this profile.
