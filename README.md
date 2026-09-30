@@ -4,7 +4,7 @@
 
 I build data platforms and AI systems that teams can inspect, reproduce, and operate. My public work centres on Brazilian public data: releases with manifests and clean-download checks, MLOps with drift gates, retrieval that cites its sources and abstains when it cannot, and runtimes that survive worker failure. More than twelve years across software, data engineering, machine learning, and cloud delivery.
 
-[Portfolio](https://github.com/LucasRangelSSouza/lucas-rangel-portfolio) · [Kaggle catalogue](https://www.kaggle.com/lucasrangelss/datasets) · [LinkedIn](https://www.linkedin.com/in/lucas-rangel-s-souza/) · [lucas.rangel@outlook.com](mailto:lucas.rangel@outlook.com)
+[Portfolio](https://rangeltech.net) · [Live RAG chat](https://rag.rangeltech.net) · [Dashboards](https://rangeltech.net/dashboards/pncp/) · [Kaggle catalogue](https://www.kaggle.com/lucasrangelss/datasets) · [LinkedIn](https://www.linkedin.com/in/lucas-rangel-s-souza/) · [lucas.rangel@outlook.com](mailto:lucas.rangel@outlook.com)
 
 ## Skills map
 
@@ -22,7 +22,13 @@ I build data platforms and AI systems that teams can inspect, reproduce, and ope
 3. [rag-chat](https://github.com/LucasRangelSSouza/rag-chat): a bounded research chat that loads one versioned corpus per deployment. First profile: PNCP procurement data.
 4. [ai-platform-rag-observability](https://github.com/LucasRangelSSouza/ai-platform-rag-observability): the RAG kernel with citation checks, language-matched refusals, and redacted traces.
 5. [distributed-agent-runtime-lab](https://github.com/LucasRangelSSouza/distributed-agent-runtime-lab): idempotent worker runtime with a public-demo Compose profile.
-6. Model serving case study: a self-hosted OpenAI-compatible endpoint for a 27B open model, with paired benchmark evidence.
+6. [qwen-abliterated-api](https://github.com/LucasRangelSSouza/qwen-abliterated-api): self-hosted OpenAI-compatible endpoint for a 27B open model (vLLM, NVFP4, speculative decoding) that powers the live chat. The checkpoint is third-party; the serving is mine.
+
+## Live demos
+
+- [RAG chat](https://rag.rangeltech.net): cited answers over PNCP procurement notices (text plus vector retrieval) and SIOPE education spending (read-only SQL agent). Pick which bases to search, or none.
+- [PNCP explorer and dashboard](https://rangeltech.net/dashboards/pncp/): text search, semantic search, and a Metabase dashboard on one Postgres.
+- [SIOPE dashboard](https://rangeltech.net/dashboards/siope/): the pure-SQL case.
 
 ## Proof map
 
