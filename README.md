@@ -4,7 +4,7 @@
 
 I build data platforms and AI systems that teams can inspect, reproduce, and operate. My public work centres on Brazilian public data: releases with manifests and clean-download checks, MLOps with drift gates, retrieval that cites its sources and abstains when it cannot, and runtimes that survive worker failure. More than twelve years across software, data engineering, machine learning, and cloud delivery.
 
-[Portfolio](https://rangeltech.net) · [Live RAG chat](https://rag.rangeltech.net) · [Dashboards](https://rangeltech.net/dashboards/pncp/) · [Kaggle catalogue](https://www.kaggle.com/lucasrangelss/datasets) · [LinkedIn](https://www.linkedin.com/in/lucas-rangel-s-souza/) · [lucas.rangel@outlook.com](mailto:lucas.rangel@outlook.com)
+[Portfolio](https://lucas.rangeltech.net) · [Live RAG chat](https://rag.rangeltech.net) · [Dashboards](https://lucas.rangeltech.net/dashboards/pncp/) · [Kaggle catalogue](https://www.kaggle.com/lucasrangelss/datasets) · [LinkedIn](https://www.linkedin.com/in/lucas-rangel-s-souza/) · [lucas.rangel@outlook.com](mailto:lucas.rangel@outlook.com)
 
 ## Skills map
 
@@ -27,8 +27,8 @@ I build data platforms and AI systems that teams can inspect, reproduce, and ope
 ## Live demos
 
 - [RAG chat](https://rag.rangeltech.net): cited answers over PNCP procurement notices (text plus vector retrieval) and SIOPE education spending (read-only SQL agent). Pick which bases to search, or none.
-- [PNCP explorer and dashboard](https://rangeltech.net/dashboards/pncp/): text search, semantic search, and a Metabase dashboard on one Postgres.
-- [SIOPE dashboard](https://rangeltech.net/dashboards/siope/): the pure-SQL case.
+- [PNCP explorer and dashboard](https://lucas.rangeltech.net/dashboards/pncp/): text search, semantic search, and a Metabase dashboard on one Postgres.
+- [SIOPE dashboard](https://lucas.rangeltech.net/dashboards/siope/): the pure-SQL case.
 
 ## Proof map
 
