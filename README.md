@@ -4,7 +4,7 @@
 
 I build systems that hold up when someone asks how they work: data platforms, ML pipelines, retrieval systems, and the infrastructure behind them. My work connects reproducibility, observability, governance, and delivery—not just model demos.
 
-[Portfolio](https://lucas.rangeltech.net/) · [30 technical articles](https://lucas.rangeltech.net/articles/) · [LinkedIn](https://www.linkedin.com/in/lucas-rangel-s-souza/) · [Kaggle datasets](https://www.kaggle.com/lucasrangelss/datasets) · [Kaggle notebooks](https://www.kaggle.com/lucasrangelss/code)
+[Portfolio](https://lucas.rangeltech.net/) · [technical articles](https://lucas.rangeltech.net/articles/) · [LinkedIn](https://www.linkedin.com/in/lucas-rangel-s-souza/) · [Kaggle datasets](https://www.kaggle.com/lucasrangelss/datasets) · [Kaggle notebooks](https://www.kaggle.com/lucasrangelss/code)
 
 ## What I build
 
