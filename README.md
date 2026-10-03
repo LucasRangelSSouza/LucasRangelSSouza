@@ -1,65 +1,59 @@
 # Lucas Rangel
 
-**Senior Data & AI Platform Engineer**
+### Senior Data & AI Platform Engineer
 
-I build data products, cloud platforms, and AI systems that are reproducible, observable, and practical to operate. My work spans data engineering, MLOps, applied machine learning, RAG and LLM applications, model evaluation and serving, and focused engineering improvements. I bring 12+ years across software, data, machine learning, and cloud.
+I build systems that hold up when someone asks how they work: data platforms, ML pipelines, retrieval systems, and the infrastructure behind them. My work connects reproducibility, observability, governance, and delivery—not just model demos.
 
-[Portfolio](https://lucas.rangeltech.net/) · [Kaggle datasets](https://www.kaggle.com/lucasrangelss/datasets) · [Kaggle notebooks](https://www.kaggle.com/lucasrangelss/code) · [Live RAG demo](https://rag.rangeltech.net/) · [LinkedIn](https://www.linkedin.com/in/lucas-rangel-s-souza/) · [Email](mailto:lucas.rangel@outlook.com)
+[Portfolio](https://lucas.rangeltech.net/) · [30 technical articles](https://lucas.rangeltech.net/articles/) · [LinkedIn](https://www.linkedin.com/in/lucas-rangel-s-souza/) · [Kaggle datasets](https://www.kaggle.com/lucasrangelss/datasets) · [Kaggle notebooks](https://www.kaggle.com/lucasrangelss/code)
 
-## Focus areas
+## What I build
 
-| Area | What I build | Selected repositories |
-|---|---|---|
-| Data platforms and cloud | Reproducible data releases, source metadata, layered datasets, cost analysis, and deployment tooling | [Brazil Public Data Map](https://github.com/LucasRangelSSouza/brazil-public-data-map) · [Cloud Data FinOps SDD Toolkit](https://github.com/LucasRangelSSouza/cloud-data-finops-sdd-toolkit) · [Metabase + Postgres](https://github.com/LucasRangelSSouza/metabase-postgres-docker) |
-| AI and LLM systems | Grounded retrieval, citations, abstention, model evaluation, and self-hosted inference | [RAG Chat](https://github.com/LucasRangelSSouza/rag-chat) · [RAG Observability](https://github.com/LucasRangelSSouza/ai-platform-rag-observability) · [Qwen API](https://github.com/LucasRangelSSouza/qwen-abliterated-api) |
-| Applied machine learning | Forecasting, recommendation, anomaly triage, and decision-support prototypes with explicit validation limits | [Education Finance MLOps](https://github.com/LucasRangelSSouza/education-finance-mlops) · [PNCP Opportunity Recommender](https://github.com/LucasRangelSSouza/pncp-opportunity-recommender) |
-| Engineering improvements | Data skew and fan-out, migration validation, IAM isolation, observability, and workflow simplification | [PySpark Fan-out & Skew Lab](https://github.com/LucasRangelSSouza/pyspark-fanout-skew-lab) · [Legacy Migration Validation](https://github.com/LucasRangelSSouza/legacy-migration-validation-loop) · [Multi-tenant IAM Isolation](https://github.com/LucasRangelSSouza/multi-tenant-iam-isolation-check) |
+| Track | Examples |
+| --- | --- |
+| **Data platforms & governance** | Lakehouse layers, contracts, catalogues, lineage, privacy gates, reproducible releases, FinOps |
+| **Applied ML** | Forecasting, ranking, recommendation, anomaly triage, credit-risk decision support, monitoring |
+| **GenAI & retrieval** | Grounded RAG, hybrid search, safe text-to-SQL, multi-agent design, model evaluation and serving |
+| **Reliable delivery** | CI/CD, Docker, Kubernetes, Terraform, Redis queues, idempotency, tests and recovery paths |
 
-## Pinned work
+## Systems you can inspect
 
-1. [lucas-rangel-portfolio](https://github.com/LucasRangelSSouza/lucas-rangel-portfolio) — portfolio site and evidence-labelled project summaries.
-2. [brazil-public-data-map](https://github.com/LucasRangelSSouza/brazil-public-data-map) — source registry, reproducible releases, and Kaggle catalogue tooling.
-3. [qwen-abliterated-api](https://github.com/LucasRangelSSouza/qwen-abliterated-api) — self-hosted, OpenAI-compatible model serving and benchmarks.
-4. [rag-chat](https://github.com/LucasRangelSSouza/rag-chat) — bounded retrieval with cited answers and explicit abstention.
-5. [grounded-finance-agents](https://github.com/LucasRangelSSouza/grounded-finance-agents) — synthetic finance Q&A comparing prompt context with SQL-grounded answers.
-6. [pyspark-fanout-skew-lab](https://github.com/LucasRangelSSouza/pyspark-fanout-skew-lab) — join fan-out and skew patterns benchmarked on synthetic data.
+| System | What it demonstrates | Links |
+| --- | --- | --- |
+| **Brazil Public Data Map** | A governed public-data lake: raw, trusted, and analytics layers; contracts, privacy rules and reproducible releases | [Repository](https://github.com/LucasRangelSSouza/brazil-public-data-map) · [Data map](https://lucas.rangeltech.net/datamap/) · [Kaggle](https://www.kaggle.com/lucasrangelss/datasets) |
+| **Education Finance MLOps** | Municipality-level anomaly triage with lineage and a drift gate; outputs are review signals, not unsupported accuracy claims | [Repository](https://github.com/LucasRangelSSouza/education-finance-mlops) · [Drift-gate article](https://lucas.rangeltech.net/articles/f1-data-drift-check-missed-a-bad-batch/) |
+| **RAG Chat** | Cited retrieval across public corpora, hybrid search, read-only SQL for numeric questions, and pre-model guardrails | [Repository](https://github.com/LucasRangelSSouza/rag-chat) · [Live demo](https://rag.rangeltech.net/) · [Architecture article](https://lucas.rangeltech.net/articles/b2-rag-agent-over-your-own-data/) |
+| **Self-hosted LLM serving** | OpenAI-compatible inference, vLLM, quantization benchmarks, deployment automation and refusal testing | [Repository](https://github.com/LucasRangelSSouza/qwen-abliterated-api) · [Serving article](https://lucas.rangeltech.net/articles/a1-self-host-uncensored-llm/) |
+| **Observable RAG** | Source citations, evaluation, redacted traces and testable boundaries for retrieval systems | [Repository](https://github.com/LucasRangelSSouza/ai-platform-rag-observability) |
+| **Distributed agent runtime** | Redis-coordinated workers, idempotent requests, recovery tests, Docker, Kubernetes and Terraform | [Repository](https://github.com/LucasRangelSSouza/distributed-agent-runtime-lab) · [Queue article](https://lucas.rangeltech.net/articles/e2-redis-streams-agent-queues/) |
 
-## Recent projects
+## Engineering cases
 
-These focused projects broaden the portfolio beyond public datasets and cover AI, applied ML, and practical engineering improvements.
+The portfolio translates work across retail, banking, payments, education, telecom, manufacturing and other domains into explainable technical cases. Client work is described by sector; the linked demonstrations use synthetic or public data where required.
 
-| Focus | Projects |
-|---|---|
-| AI, ML, and decision support | [Grounded Finance Agents](https://github.com/LucasRangelSSouza/grounded-finance-agents) · [Agent Framework Chat Test](https://github.com/LucasRangelSSouza/agent-framework-chat-test) · [Weekly Demand Forecast](https://github.com/LucasRangelSSouza/weekly-demand-forecast) · [Default Propensity Model](https://github.com/LucasRangelSSouza/default-propensity-model) · [ML Endpoint Alerting](https://github.com/LucasRangelSSouza/ml-endpoint-alerting) · [Category-capped Recommender](https://github.com/LucasRangelSSouza/recommender-category-cap) · [Two-stage Grocery Recommender](https://github.com/LucasRangelSSouza/two-stage-grocery-recommender) · [Stockpile Volume from Drone Photos](https://github.com/LucasRangelSSouza/stockpile-volume-from-drone-photos) · [Backlog Revenue Forecast](https://github.com/LucasRangelSSouza/backlog-revenue-forecast) |
-| Data and platform improvements | [PySpark Fan-out & Skew Lab](https://github.com/LucasRangelSSouza/pyspark-fanout-skew-lab) · [Metabase + Postgres](https://github.com/LucasRangelSSouza/metabase-postgres-docker) · [Pricing As-of Join Pipeline](https://github.com/LucasRangelSSouza/pricing-asof-join-pipeline) · [Legacy Migration Validation](https://github.com/LucasRangelSSouza/legacy-migration-validation-loop) · [Multi-tenant IAM Isolation](https://github.com/LucasRangelSSouza/multi-tenant-iam-isolation-check) · [Accessibility Scan Deduplication](https://github.com/LucasRangelSSouza/a11y-scan-dedupe) · [Interchangeable Parts Search](https://github.com/LucasRangelSSouza/interchangeable-parts-search) |
+- [Two-stage grocery recommender](https://lucas.rangeltech.net/articles/h4-two-stage-recommender-grocery/) · [Recommendation diversity and best-seller bias](https://lucas.rangeltech.net/articles/h2-recommender-only-shows-best-sellers/)
+- [Grounded financial agents](https://lucas.rangeltech.net/articles/h7-stop-agents-inventing-numbers/) · [Telecom revenue forecasting with AI agents](https://lucas.rangeltech.net/articles/h8-forecasting-with-ai-agents/)
+- [Stockpile measurement from drone imagery](https://lucas.rangeltech.net/articles/h1-measure-stockpile-volume-drone-photos/) · [Weekly manufacturing demand forecasting](https://lucas.rangeltech.net/articles/h13-weekly-demand-forecasting/)
+- [Interchangeable-parts search](https://lucas.rangeltech.net/articles/h5-interchangeable-parts-ai-search/) · [Credit-risk decision support](https://lucas.rangeltech.net/articles/h14-predict-loan-default/)
+- [AI-assisted accessibility operations](https://lucas.rangeltech.net/articles/h10-accessibility-fixes-with-ai-agents/) · [Spec-driven legacy modernization](https://lucas.rangeltech.net/articles/h12-migrating-legacy-code-spec-driven/)
 
-## Live demos
+## Writing with evidence and limits
 
-- [RAG chat](https://rag.rangeltech.net/) — cited answers across selectable corpora.
-- [PNCP explorer and dashboard](https://lucas.rangeltech.net/dashboards/pncp/) — text search, semantic search, and a dashboard.
-- [SIOPE dashboard](https://lucas.rangeltech.net/dashboards/siope/) — an interactive SQL analytics case.
-- [Portfolio and data map](https://lucas.rangeltech.net/) — project summaries, live work, and the public data map.
+I publish the engineering decision, the method, the result, and the boundary of the claim.
 
-## Evidence and boundaries
+| Theme | Selected reading |
+| --- | --- |
+| **LLM systems** | [FP8 vs NVFP4](https://lucas.rangeltech.net/articles/a2-fp8-vs-nvfp4/) · [Refusal probes](https://lucas.rangeltech.net/articles/a3-test-llm-refusal/) · [Agent framework comparison](https://lucas.rangeltech.net/articles/h6-crewai-vs-agno-vs-autogen/) |
+| **RAG & search** | [Embedding evaluation](https://lucas.rangeltech.net/articles/b1-vertex-vs-open-source-embeddings/) · [Safe text-to-SQL](https://lucas.rangeltech.net/articles/b3-safe-text-to-sql-agent/) · [pgvector at scale](https://lucas.rangeltech.net/articles/b4-pgvector-ivfflat-or-hnsw/) |
+| **Data engineering** | [Data catalogue with lineage](https://lucas.rangeltech.net/articles/c2-free-data-catalog-with-lineage/) · [Cloud data-lake FinOps](https://lucas.rangeltech.net/articles/d1-cut-cloud-data-lake-costs/) · [PySpark joins](https://lucas.rangeltech.net/articles/g1-fix-slow-pyspark-joins/) |
+| **ML quality & safety** | [Leakage-free ranking evaluation](https://lucas.rangeltech.net/articles/f2-evaluate-ranking-model-without-leakage/) · [ML production monitoring](https://lucas.rangeltech.net/articles/h3-monitor-ml-models-in-production/) · [Pseudonymization in CI](https://lucas.rangeltech.net/articles/f3-pseudonymize-personal-data-test-in-ci/) |
 
-| Project | Evidence | Limit |
-|---|---|---|
-| Brazil Public Data Map | Kaggle releases with SHA-256 manifests; clean-download verification against a manifest | Public availability does not itself settle redistribution terms; each release records its own |
-| Education Finance MLOps | A drift gate blocked a shifted batch | Review signals only; no labels, so no accuracy claim |
-| PNCP Opportunity Recommender | Offline evaluation with hash-verified data | Synthetic profiles measure constraint adherence, not user relevance |
-| RAG Observability | Citation checks, language-matched refusals, redacted traces, and documented tests | External gateway and observability clients were tested against fake servers |
-| Distributed Agent Runtime | Local benchmark and worker-recovery tests | Deterministic stub model; no cloud validation |
+Browse the complete [article library](https://lucas.rangeltech.net/articles/) for 30 engineering notes, research experiments, and case studies.
 
-Repositories document their own verification records. I avoid presenting local or synthetic tests as production validation.
+## Background
 
-## Kaggle data
+12+ years building software, data, and AI systems—from embedded software and databases to cloud platforms, lakehouses, MLOps, GenAI and AI-platform delivery. Core tools across that path include Python, SQL, Spark/PySpark, dbt, Airflow, BigQuery, Databricks, AWS, GCP, Docker, Terraform, Kubernetes, MLflow, LLMs and RAG.
 
-Kaggle is one focused part of my portfolio: a catalogue of public Brazilian education and procurement datasets, alongside the broader AI, cloud, and engineering work above.
-
-- [All public datasets](https://www.kaggle.com/lucasrangelss/datasets)
-- [Public notebooks](https://www.kaggle.com/lucasrangelss/code)
-- [Brazil Education Data Lake: SIOPE 2019–2023](https://www.kaggle.com/datasets/lucasrangelss/brazil-education-data-lake)
-- [Brazil PNCP Procurement History: January 2025](https://www.kaggle.com/datasets/lucasrangelss/brazil-pncp-procurement-history) — an earlier bounded sample, separate from the current catalogue.
+I keep public work explicit about its evidence: synthetic or public data stays labelled, local tests are not presented as cloud validation, and portfolio examples do not disclose client data, credentials, or proprietary implementation details.
 
 ## Contact
 
